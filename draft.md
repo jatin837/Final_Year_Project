@@ -89,20 +89,30 @@ keywords
 
 # Questions
 
-- what are computationally economical methods for determining SoH of a BMS which are Accurate as well?
+## what are computationally economical methods for determining SoH of a BMS which are Accurate as well?
 
-- What are the most common methods used for determining SoH of a BMS?
+First of all, State of Health is not a term related to BMS. BMS computes the **State of Health** for a **battery pack**. **State of Health is a property of a battery pack** like this one
 
-- How can we use such methods to determing SoH of a BMS for a real world EV?
+![EV Battery Pack](static/4.jpg)
 
-- Okay, ICA(Incremental Capacity Analysis) is a method for determining SoH, which is, both, computationally economical as well as pretty much accurate?
+Or, this one
 
-- ICA can further be used for **Capacity Fade**?
+![EV Battery Pack](static/5.jpeg)
+ 
+Now, the question is, what are the algorithms to BMS uses to calculate State of Health of a battery pack?
+### What are the most common methods used for determining SoH of a BMS?
 
-- What the hell is capacity fade anyway?
+### How can we use such methods to determing SoH of a BMS for a real world EV?
 
-- What are the most common types of batteries used in Modern EVs? In the paper which I'm reading, they discussed LMO and NMC based batteries
+### Okay, ICA(Incremental Capacity Analysis) is a method for determining SoH, which is, both, computationally economical as well as pretty much accurate?
 
-- What are **ageing results**?
+### ICA can further be used for **Capacity Fade**?
 
-- What are capacity fade of a battery?
+### What the hell is capacity fade anyway?
+
+### What are the most common types of batteries used in Modern EVs? In the paper which I'm reading, they discussed LMO and NMC based batteries
+
+### What are **ageing results**?
+
+### What are capacity fade of a battery?
+
