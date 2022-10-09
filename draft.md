@@ -1,28 +1,40 @@
 ---
-title: Draft for B. Tech. Final Year Project
+title: "Draft for B. Tech. Final Year Project"
 author: Jatin Pandey
 date: 14th september, 2022
+fontsize: 12pt
+geometry: margin=2cm
+output: pdf_document
 
 ---
 
 # State of Health Estimation of LMO/NMC-based Electric Vehicle Lithium-Ion Batteries Using the Incremental Capacity Analysis Technique
 
-**Accurate** & **low computational demanding**
-**state-of-health (SOH) estimation algorithm**
-**battery management systems in electric vehicle (EV)**
-**incremental capacity analysis (ICA) technique** _for estimating_ 
-    - the capacity fade
-    - the SOH 
-of **LMO/NMC-based EV** _Lithium-ion batteries_.
-Based on **ageing results** collected during **eleven months of testing**,
-we were able to **accurately relate** the **capacity fade** of the studied batteries to the evolution of the voltage value,
-which corresponds to one of the incremental capacity
-(IC) valleys, obtained using the ICA technique.
+## ABSTRACT
+The implementation of an **accurate but also low computation** demanding SOH estimation algorithm represents **a key challenge** for the BMS in EV applications. In this paper we investigate the suitability of the **incremental capacity analysis (ICA) technique** for **estimating** the **capacity fade** and subsequently the **SOH** of **LMO/NMC-based EV Lithium-ion batteries**. Based on **ageing results** collected during **eleven months of testing**, we were able to **accurately relate the capacity fade of the studied batteries to the evolution of the voltage value**, which corresponds to one of the incremental capacity **(IC) valleys**, obtained using the ICA technique.
 
-State of Health Estimation
-EV batteries
-Li-Ion (LMO, NMC)
-Incrementl capacity analysis
+## REFERENCES
+[1] D.-I. Stroe et al., “Accelerated Lifetime testing methodology for Lifetime Estimation of Lithium-Ion batteries Used in Augmented Wind Power Plants,” IEEE Transactions on Industry Applications, vol. 50, no. 6, pp. 4006-4017, Apr. 2014.
+
+[2] W. Waag, C. Fleischer, D.U. Sauer, “Critical review of the methods for monitoring of lithium-ion batteries in electric and hybrid vehicles,” Journal of Power Sources, vol. 258, pp. 321-339, 2014.
+
+[3] M. Berecibar et al., “Critical review of state of health estimation methods of Li-ion batteries for real applications,” Renewable and Sustainable Energy Reviews, vol. 56, pp. 572-587, 2016.
+
+[4] J. Groot, “State-of-Health Estimation of Li-ion Batteries: Ageing Models,” Ph.D. Thesis, Chalmers University of Technology, Göteborg, 2014.
+
+[5] C. Weng, et al, “On-board state of health monitoring of lithium-ion batteries using incremental capacity analysis with support vector regression,” Journal of Power Sources, vol. 235, pp. 36-44, 2013.
+
+[6] M. Dubarry, V. Svoboda, R. Hwu, B. Y. Liaw, “Incremental Capacity Analysis and Close-to-Equilibrium OCV Measurements to Quantify Capacity Fade in Commercial Rechargeable Lithium Batteries,” Electrochemical and Solid-State Letters, vol. 9, no.10, pp. A454- A457, 2006.
+
+[7] A. Eddahech et al., “Remaining useful life prediction of lithium batteries in calendar ageing for automotive applications,” Microelectronics Reliability, vol. 52, pp. 2438-2442, Sep. 2012.
+
+[8] M. Swierczynski et al., “Suitability of the Nanophosphate LiFePO4/C Battery Chemistry for the Fully Electric Vehicle: Lifetime Perspective,” IEEE Transactions on Industry Applications, vol. 51, no. 4, pp. 1-8, Mar. 2014.
+
+[9] A. I. Stan et al., “A Comparative Study of Lithium Ion to Lead Acid Batteries for use in UPS Applications,” in IEEE 2014 International Telecommunications Energy Conference, 2014, pp. 1-8.
+
+[10] S. Käbitz et al., “Cycle and calendar life study on a graphite/ LiNi1/3Mn1/3Co1/3O2 high energy system. Part A: Full cell characterization,” Journal of Power Sources, vol. 239, pp. 572-583, 2013.
+
+[11] P. Keil and A. Jossen, “Calendar Aging of NCA Lithium-Ion Batteries Investigated by Differential Voltage Analysis and Coulomb Tracking,” Journal of The Electrochemical Society, vol. 164, no. 1, pp. A6066-A6074, 2017.
 
 # BEEP: A Python library for Battery Evaluation and Early Prediction
 
